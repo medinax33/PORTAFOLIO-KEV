@@ -1,0 +1,151 @@
+* {
+  background-color: #08c18a;
+  margin: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 3px;
+}
+.banner-principal {
+  max-width: 100%;
+  padding: 13px;
+  height: 433px;
+  border-radius: 1rem;
+}
+
+.banner-principal p {
+  color: black;
+  font-size: 33px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 3px;
+}
+
+.lenguajes-contenedor {
+  display: flex;
+  max-width: 100%;
+  height: 433px;
+}
+
+.lenguaje {
+  border-radius: 1rem;
+  margin: 2px;
+}
+
+.contenedor-contratame {
+  max-width: 100%;
+  margin: 3px;
+  height: 215px;
+}
+
+.contratame {
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  display: flex;
+}
+.contratame p {
+  background-color: #08c18a;
+  border-radius: 1rem;
+}
+
+.boton {
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  color: #08c18a;
+  background-color: black;
+}
+
+.about-me {
+  display: flex;
+  height: 433px;
+}
+
+.imagen-sobremi {
+  flex-wrap: wrap;
+}
+.texto-sobremi {
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  margin-left: 33px;
+  height: 215px;
+}
+
+ul {
+  list-style: none;
+}
+
+.social {
+  height: 73px;
+  max-width: fit-content;
+  padding: 7px;
+  margin: 17px;
+}
+
+.social img {
+  width: 53px;
+  padding: 7px;
+  border-radius: 9px;
+}
+
+.donaciones {
+  margin: 33px;
+  display: flex;
+  cursor: pointer;
+}
+
+.contenedor-medios-contacto {
+  display: flex;
+  margin: 13px;
+  height: 215px;
+}
+
+.medio-contacto {
+  flex-grow: initial;
+  padding: 9px;
+  margin: 7px;
+}
+.medio-contacto img {
+  height: 133px;
+  width: 133px;
+  border-radius: 7px;
+  margin: 7px;
+}
+
+.home {
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  width: 999px;
+  margin-left: 79px;
+  border-style: none;
+}
+
+.home:hover {
+  color: #08c18a;
+  background-color: black;
+}
